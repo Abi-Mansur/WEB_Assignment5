@@ -54,10 +54,10 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    width: 30%;
     list-style-type: none;
     margin: 100px 30px;
-    gap: 20px;
+   
 }
 
 
@@ -72,6 +72,6 @@ nav a {
 }
 
 nav li:hover {
-    transition: 0.4s;
-    transform: scale(1.1);
+    transition: 0.2s;
+    transform: scale(1.02);
 }
