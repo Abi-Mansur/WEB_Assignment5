@@ -107,7 +107,6 @@ nav li:hover {
     margin-top: 20px;
 }
 
-/* Стиль для каждого пункта задачи (строки) */
 #taskList li {
     display: flex;
     justify-content: space-between;
