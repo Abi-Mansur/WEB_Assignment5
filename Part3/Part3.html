@@ -19,11 +19,19 @@
     </nav>
 
     <div class="container">
-        <h1>Task 3 </h1>
+        <h1>Task 5 </h1>
 
         <p class="task" id="box" onmouseover="mouseOver()" onmouseout="mouseOut()">box</p>
-        
 
+        <h1>Task 6 </h1>
+
+        <div class="task">
+            Enter your name: <br>
+            <input class="lol" type="text" id="fname" onkeyup="task6()">
+
+            <p> My name is: <br> <span id="print"></span></p>
+
+        </div>
 
     </div>
 
@@ -37,5 +45,18 @@
             document.getElementById("box").style.backgroundColor = "#202a44";
         }
     </script>
+
+
+    <script>
+        function task6(){
+
+            let x = document.getElementById("fname").value;
+            document.getElementById("print").innerHTML = x;
+
+        }
+    </script>
+
+
+
 </body>
 </html>
