@@ -45,8 +45,22 @@
         
 
 
+        <h1>Task 4 </h1>
 
+        <p>List below</p>
 
+        <div>
+            <ul id="List">
+                <li>item 1</li>
+            </ul>
+
+            <div style="text-align: center; padding: 20px;">
+                <button class="button" onclick="addItem()">Add item</button>
+                <button class="button" onclick="removeItem()">Remove item</button>
+            </div>
+        </div>
+        
+        
     </div>
 
 
@@ -67,6 +81,23 @@
         }
         function changeFontSize() {
             document.getElementById("task3").style.fontSize = "30px";
+        }
+    </script>
+
+    <script>
+        function addItem() {
+            let list = document.getElementById("List");
+            let newItem=document.createElement("li");
+            newItem.textContent="new item";
+            list.appendChild(newItem);
+        }
+    </script>
+
+    <script>
+        function removeItem() {
+            let list = document.getElementById("List");
+            let lastItem = list.lastElementChild;
+            list.removeChild(lastItem);
         }
     </script>
 

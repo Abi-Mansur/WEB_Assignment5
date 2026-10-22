@@ -27,7 +27,14 @@ p {
 }
 
 
+li{ 
 
+    color: rgb(253, 252, 252, 0.908);
+    font-size: 20px;
+    margin: auto;
+    max-width: 20%;
+    padding: 20px;
+}
 
 
 nav {
@@ -54,10 +61,10 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30%;
+    width: 35%;
     list-style-type: none;
     margin: 100px 30px;
-    gap: 20px;
+   
 }
 
 
