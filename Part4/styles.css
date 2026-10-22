@@ -1,0 +1,164 @@
+body {
+    background-color: #091427;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(253, 252, 252, 0.908);
+    font-size: 45px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.task {
+    
+    color: rgb(253, 252, 252, 0.908);
+    font-size: 20px;
+    padding: 40px;
+    font-weight: bold;
+    border: 2px solid #202a44;
+    max-width: 40%;
+    border-radius: 20px;
+    background-color: #202a44;
+    margin: auto;
+    text-align: center;
+}
+
+
+.lol{
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+nav {
+    background-color:#202a44 ;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(253, 252, 252, 0.908);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    list-style-type: none;
+    margin: 100px 30px;
+   
+}
+
+
+nav a {
+    width: 50%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(241, 240, 240, 0.908);
+    
+}
+
+nav li:hover {
+    transition: 0.2s;
+    transform: scale(1.02);
+}
+
+.button{
+    background-color: #091427;
+    color: rgb(254, 251, 251);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    max-width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.window{
+
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 5px;
+    background-color: white;
+}
+
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Стиль для каждого пункта задачи (строки) */
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #172138;
+    border: 1px solid #2b3856;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+#taskList li:hover {
+    border-color: #3a4b75;
+}
+
+
+#taskList li span {
+    color: rgba(253, 252, 252, 0.908);
+    font-size: 16px;
+    word-break: break-all;
+    text-align: left;
+    cursor: pointer;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+
+#taskList li button {
+    background-color: #2b3856;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s ease;
+    flex-shrink: 0;
+}
+
+#taskList li button:hover {
+    transform: scale(1.05);
+}
+
+#taskList li button:active {
+    transform: scale(0.95);
+}
